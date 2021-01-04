@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-image: url('/public/bcimage.jpg');
+
+}
+
+.formatLinks a{
+  text-decoration: none;
+
+}
+
+.formatLinks a:hover{
+  color:red;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: rgb(68, 41, 168);
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
